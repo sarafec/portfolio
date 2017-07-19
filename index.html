@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio | Sara Fecadu</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto+Condensed" rel="stylesheet">
+	<link rel="icon" type="image/png" href="assets/favicon.png">
+	<style>
+		body{
+			background-color: #dbd8d8;
+			margin: 25px;
+		}
+
+		.title {
+			font-family: 'Luckiest Guy', cursive;
+			font-size: 60px;
+			margin-top: 25px;
+			max-height: 100px;
+			max-width: 100px;
+			float: left;
+		}
+
+		#stop-sign {
+			margin-left: 75px;
+			margin-top: -2px;
+			position: relative;
+			z-index: 2;
+		}
+
+		.title-image {
+			overflow: hidden;
+			height: 95px;
+			left: -30px;
+			position: relative;
+			z-index: 1;
+		}
+
+		#subtitle {
+			text-align: right;
+			margin-right: 30px;
+			font-size: 1.7rem;
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+
+		.header-segment-line {
+			margin-right: 30px;
+			margin-top: -10px;
+			margin-bottom: 15px;
+			border-top: 1px solid black;
+		}
+
+		.content-container{
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+
+
+		.projects-title {
+			text-align: left;
+			font-size: 1.7rem;
+			margin-bottom: 0px;
+			margin-top: 20px;
+		}
+
+		.projects-container {
+		    margin-top: 10px;
+		    margin-right: 10%;
+		}
+
+		.box {
+			display: inline-block;
+		    width: 90%;
+		    margin-left: 20%;
+		    margin-top: 10px;
+		    margin-bottom: 30px;
+		    text-align: left;
+		}
+
+		.box a {
+			color: black;
+			padding-bottom: 10px;
+		}
+		
+		.datavis-image {
+			margin-bottom: 5px;
+			max-height: 20%;
+			max-width: 100%;
+			border: .2px solid black;
+		}
+
+		.projects-explainer {
+			text-align: left;
+			margin-top: 5px;
+			padding-bottom: 10px;
+			max-width: 615px;
+			clear: both;
+			font-size: 1.2rem;
+		}
+
+		.divider-container {
+			float: left;
+			clear: both;
+			width: 500px;
+		}
+
+		.blogs-title {
+			font-size: 1.7rem;
+		}
+
+		.blogs-container a {
+			color: black;
+		}
+
+		.blog-post {
+		    margin-left: 20px;
+			margin-top: -5px;
+			font-size: 1.1rem;
+		}
+
+		.entry-title {
+			font-size: 1.4rem;
+		}
+
+		.entry-date {
+			margin-left: 10px;
+			margin-top: -10px;
+		}
+
+		.entry-description {
+			margin-left: 10px;
+			margin-top: -10px;
+		}
+
+		footer {
+			background-color: #242424;
+			position: fixed;
+			width: 100%;
+			clear: both;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			padding: .5rem;
+			text-align: center;
+		}
+
+		footer a {
+			color: 	#dbd8d8;
+			margin-right: 10px;
+			font-size: 1.2rem;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1 class="title">Quick</h1>
+		<img class="title" id="stop-sign" src="assets/stop-sign.png" alt="a stop sign">
+		<div class="title-image"><img src="assets/quick-stop.png" alt="faces"></div>
+		<h2 id="subtitle">Sara Fecadu's Latest Adventures in JavaScript</h2>
+		<hr class="header-segment-line">
+	</header>
+
+	<div class="content-container">
+		<div class="projects-container">
+			<h3 class="projects-title">Projects</h3>
+			<div class="projects-container">
+				
+			<div class="box">
+					<a href="" target="_blank"><img class="datavis-image" src="assets/desserts.png" alt="photo of pies"></a>
+						<a href="" target="_blank">
+					<div class="projects-explainer">
+							DessertMVC with Angular v4</a> • <a class="dessert-source" href="" target="_blank">Source</a><br>
+						<a href="" target="_blank">
+							DessertMVC with React</a> • <a class="dessert-source" href="" target="_blank">Source</a><br>
+						<a href="https://sarafec.github.io/dessertsMVC-JS/" target="_blank">
+							DessertMVC with JavaScript</a> • <a class="dessert-source" href="https://github.com/sarafec/dessertsMVC-JS" target="_blank">Source</a><br><br>
+
+							Inspired by <a href="http://todomvc.com/">TodoMVC</a>, DessertsMVC is a recipe site using different JavaScript frameworks (and plain old JavaScript) to compare their approaches to resource loading, routing, and templates. <br>
+					</div>
+				</div>
+
+				<div class="box">
+					<a href="https://bl.ocks.org/sarafec/287bc9628a723d70285178ff9b2a718a" target="_blank"><img class="datavis-image" src="assets/chart.png" alt="photo of chart"></a>
+					<div class="projects-explainer">
+						Technologies used: D3.js and JavaScript <br>
+					This project visualizes 23 years of teen birth data and filters by census region.
+					</div>
+				</div>
+			
+				<div class="box">
+					<a href="https://sarafec.github.io/saraWatchesMovies/" target="_blank"><img class="datavis-image" src="assets/film.png" alt="phooto of website header"></a>
+					<div class="projects-explainer">
+						Techonologies Used: D3.js, UI Bootstrap, and AngularJS
+						<br>
+						This project contains three tabs with a static resource page, a d3.js chart, and dynamically created icons.
+					</div>
+				</div>
+				
+				<div class="box">
+					<a href="https://sarafec.github.io/theWorstClock/" target="_blank">
+						<img src="assets/clock.png" class="datavis-image" alt="photo of website header"></a>
+					<div class="projects-explainer">
+						Techonologies Used: HTML, CSS, and JavaScript
+						<br>
+						This clock app, called the Worst Clock, does contain an actual clock and a somewhat imprecise word clock.
+					</div>
+				</div>
+
+				<div class="box">
+					<a href="https://sarafec.github.io/presidentialFunFacts/" target="_blank">
+						<img src="assets/president.png" class="datavis-image" alt="photo of website header"></a>
+					<div class="projects-explainer">
+						Techonologies Used: jQuery, Bootstrap, and JavaScript
+						<br>
+						This app contains interesting factoids about former US presidents and a search function.
+					</div>
+				</div>
+
+				<div class="box">
+					<a href="https://github.com/sarafec/d3Charts" target="_blank">
+						<img src="assets/static-chart.png" class="datavis-image" alt="photo of bar chart"></a>
+					<div class="projects-explainer">
+						Techonologies Used: D3.js and JavaScript
+						<br>
+						This github repository contains simple bar and line charts which are currently hosted on <a href="bl.ocks.org/sarafec">bl.ocks.org/sarafec</a>. 
+					</div>
+				</div>
+			</div> 
+		</div>
+
+		<div class="divider-container">
+			<div class="blogs-container">
+				<h3 class="blogs-title">Recent Blog Posts</h3>
+				<div class="blog-post">
+					<div class="blog-post">
+						<p class="entry-title">
+							<a href="https://medium.com/@sarafecadu/a-world-without-loops-f8f65a30c82d" target="_blank">
+								A world without loops
+							</a>
+						</p>
+						<p class="entry-date">
+							Published on July 6, 2017
+						</p>
+						<p class="entry-description">
+							This blog post discusses potential alternatives to for statements.
+						</p>
+					</div>
+					<div class="blog-post">
+						<p class="entry-title">
+							<a href="https://medium.com/@sarafecadu/javascript-numbers-and-the-mystery-0s-b087c5cf21e2" target="_blank">
+								JavaScript and the Mystery 0s
+							</a>
+						</p>
+						<p class="entry-date">
+							Published on June 2, 2017
+						</p>
+						<p class="entry-description">
+							This blog post discusses how JavaScript internally represents numbers.
+						</p>
+					</div>
+			</div>
+	</div>
+	<br>
+	<div class="divider-container"><br>
+	<footer> <a href="https://github.com/sarafec" target="_blank">Github</a> 
+		<a href="https://medium.com/@sarafecadu" target="_blank">Medium</a> 
+		<a href="https://bl.ocks.org/sarafec" target="_blank">Blocks</a>
+	</footer>
+	</div>
+</body>
+</html>
+<!-- http://www.color-hex.com/color-palette/40487 -->
