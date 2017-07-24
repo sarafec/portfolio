@@ -1,21 +1,21 @@
 # My Latest Adventures in JavaScript
-This repository contains all the projects I have currently hosted on Github and my most recent blogs posted on Medium in an easy to browse format.  
+This repository contains links to all of my projects that are currently hosted on Github and my most recent blog posts on Medium.  
   
   
 ## Projects  
 * DessertsMVC  
-This project contains three recipe sites written in Angular, React and plain JavaScript, respectively. The focus of this project find out how each technology approaches resource loading, templates and routing.  
+This project contains three recipe sites written in Angular, React and plain JavaScript, respectively. The focus of this project was find out how each technology approaches resource loading, templates and routing.  
 
 * D3Charts-2  
 This repository contains the source code for interactive charts made with D3.js and JavaScript.   
 All charts are hosted on [bl.ocks.org](bl.ocks.org/sarafec).  
 
 * [Some Film Appreciation.](https://github.com/sarafec/saraWatchesMovies)  
-This project uses Angular 1.x, UI Bootstrap and JavaScript to create a tabular movie review website.   
+This project uses Angular 1.x, UI Bootstrap and D3.js to create a tabular movie review website.   
 A live version of this project can be found [here](https://sarafec.github.io/saraWatchesMovies/).
 
 * [The Worst Clock](https://github.com/sarafec/theWorstClock)
-This clock app uses words to tell the current time. The app also contains the time  in number form by clicking a link in the footer.    
+This clock app uses words to tell the current time. It is written using plain JavaScript, CSS and HTML.
 A live version of this project can be found [here](https://sarafec.github.io/theWorstClock/).
   
 * [Presidential Fun Facts](https://github.com/sarafec/presidentialFunFacts)  
@@ -23,7 +23,7 @@ This project contains a single obscure fact about each of the former presidents 
 A live version of this project can be found [here](https://sarafec.github.io/presidentialFunFacts/). 
 
 * [D3Charts](https://github.com/sarafec/d3Charts)  
-This repository contains the source code for mostly static line and bar charts made with D3.js and JavaScript.   
+This repository contains the source code for mostly static line and bar charts written with D3.js and JavaScript.   
 All charts are hosted on [bl.ocks.org](bl.ocks.org/sarafec).  
   
   
