@@ -14,7 +14,8 @@
 		.title {
 			font-family: 'Luckiest Guy', cursive;
 			font-size: 60px;
-			margin-top: 25px;
+			margin-top: 30px;
+			margin-left: 10px;
 			max-height: 100px;
 			max-width: 100px;
 			float: left;
@@ -22,7 +23,7 @@
 
 		#stop-sign {
 			margin-left: 75px;
-			margin-top: -2px;
+			margin-top: 4px;
 			position: relative;
 			z-index: 2;
 		}
@@ -30,6 +31,7 @@
 		.title-image {
 			overflow: hidden;
 			height: 95px;
+			margin-top: 4px;
 			left: -30px;
 			position: relative;
 			z-index: 1;
@@ -37,20 +39,25 @@
 
 		#subtitle {
 			text-align: right;
-			margin-right: 30px;
-			font-size: 1.7rem;
+			margin-top: 10px;
+			margin-right: 28px;
+			margin-bottom: 10px;
+			font-size: 26px;
 			font-family: 'Roboto Condensed', sans-serif;
 		}
 
-		.header-segment-line {
-			margin-right: 30px;
-			margin-top: -10px;
-			margin-bottom: 15px;
-			border-top: 1px solid black;
+		header {
+			background-color: cadetblue;
+			top: 0;
+			left: 0;
+			right: 0;
+			position: fixed;
+			border-bottom: black solid 2px;
 		}
 
 		.content-container{
 			font-family: 'Roboto Condensed', sans-serif;
+			margin-top: 180px;
 		}
 
 
@@ -145,7 +152,7 @@
 		footer a {
 			color: 	#dbd8d8;
 			margin-right: 10px;
-			font-size: 1.2rem;
+			font-size: 19px;
 		}
 
 	</style>
@@ -156,7 +163,6 @@
 		<img class="title" id="stop-sign" src="assets/stop-sign.png" alt="a stop sign">
 		<div class="title-image"><img src="assets/quick-stop.png" alt="faces"></div>
 		<h2 id="subtitle">Sara Fecadu's Latest Adventures in JavaScript</h2>
-		<hr class="header-segment-line">
 	</header>
 
 	<div class="content-container">
