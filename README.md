@@ -27,6 +27,9 @@ This repository contains the source code for mostly static line and bar charts w
   
   
 ## Blogs  
+* [The humble JSON file meets Angular v4](https://medium.com/@sarafecadu/the-humble-json-file-meets-angular-v4-6b8ae861b018)  
+This blog post walks through loading a JSON file using RxJS and Angular v4.  
+  
 * [A World without Loops](https://medium.com/@sarafecadu/a-world-without-loops-f8f65a30c82d)  
 This blog post discusses several iterative array methods that can be used as alternatives to the classic for statement.  
   
