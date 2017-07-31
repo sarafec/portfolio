@@ -6,7 +6,10 @@ This repository contains links to all of my projects that are currently hosted o
 * [DessertsMVC](https://github.com/sarafec/dessertsMVC)  
 This project contains three recipe sites written in Angular, React and plain JavaScript, respectively. The focus of this project was find out how each technology approaches resource loading, templates and routing.  
 A live version of the directory can be found here [here](https://sarafec.github.io/dessertsMVC/).  
-  
+
+* [Dogs.](https://github.com/sarafec/dogs)  
+This project displays 30 breeds of dogs as icons and provides a search box to filter through the dogs.  
+    
 * [Teen Births, 1990-2012](https://bl.ocks.org/sarafec/287bc9628a723d70285178ff9b2a718a)   
 This data visualization contains 23 years of teen birth data in the United States. The chart was built using D3.js, JavaScript, HTML, CSS, and SVG.     
   
