@@ -9,8 +9,12 @@ A live version of the directory can be found here [here](https://sarafec.github.
 
 * [Dogs.](https://github.com/sarafec/dogs)  
 This project displays 30 breeds of dogs as icons and provides a search box to filter through the dogs.  
-A liver version of this project can be found [here](https://sarafec.github.io/dogs/).  
+A live version of this project can be found [here](https://sarafec.github.io/dogs/).  
     
+* [Filter by genre](https://github.com/sarafec/filterByGenre)  
+This project displays 15 books as icons and provides a side menu to filter the books by genre.  
+A live version of this project can be found [here](https://sarafec.github.io/filterByGenre/).  
+  
 * [Teen Births, 1990-2012](https://bl.ocks.org/sarafec/287bc9628a723d70285178ff9b2a718a)   
 This data visualization contains 23 years of teen birth data in the United States. The chart was built using D3.js, JavaScript, HTML, CSS, and SVG.     
   
