@@ -14,6 +14,10 @@ A live version of this project can be found [here](https://sarafec.github.io/dog
 * [Filter by genre](https://github.com/sarafec/filterByGenre)  
 This project displays 15 books as icons and provides a side menu to filter the books by genre.  
 A live version of this project can be found [here](https://sarafec.github.io/filterByGenre/).  
+
+* [EriSnap](https://github.com/sarafec/eriSnap)  
+This project contains a photo viewer and a photo library with icons to browser through.  
+A live version of this project can be found [here](https://sarafec.github.io/eriSnap/)  
   
 * [Teen Births, 1990-2012](https://bl.ocks.org/sarafec/287bc9628a723d70285178ff9b2a718a)   
 This data visualization contains 23 years of teen birth data in the United States. The chart was built using D3.js, JavaScript, HTML, CSS, and SVG.     
