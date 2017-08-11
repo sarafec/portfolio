@@ -18,9 +18,6 @@ This data visualization contains 23 years of teen birth data in the United State
 This clock app uses words to tell the current time. It is written using plain JavaScript, CSS and HTML.
 A live version of this project can be found [here](https://sarafec.github.io/theWorstClock/).
   
-* [D3Charts](https://github.com/sarafec/d3Charts)  
-This repository contains the source code for mostly static line and bar charts written with D3.js and JavaScript.   
-  
   
 ## Blogs  
 * [The humble JSON file meets Angular v4](https://medium.com/@sarafecadu/the-humble-json-file-meets-angular-v4-6b8ae861b018)  
