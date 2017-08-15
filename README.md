@@ -11,6 +11,10 @@ A live version of the directory can be found here [here](https://sarafec.github.
 This project contains four user interface widgets written in either Angular v4 or React. They include a search application, two filter applications and a photo viewer. 
 A live version of this directory can be found [here](https://sarafec.github.io/exploreUI/).  
   
+* [Static](https://github.com/sarafec/static)  
+This project is a collection of static and reusable charts focused on data from Africa.  
+A live version fo this project can be found [here](https://sarafec.github.io/static/).  
+  
 * [Teen Births, 1990-2012](https://bl.ocks.org/sarafec/287bc9628a723d70285178ff9b2a718a)   
 This data visualization contains 23 years of teen birth data in the United States. The chart was built using D3.js, JavaScript, HTML, CSS, and SVG.     
   
