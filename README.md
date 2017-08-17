@@ -24,6 +24,9 @@ A live version of this project can be found [here](https://sarafec.github.io/the
   
   
 ## Blogs  
+* [Unpacking the meta viewport tag](https://medium.com/@sarafecadu/unpacking-the-meta-viewport-tag-bd6b0d0d2471)  
+This blog post discusses the meta viewport tag's properties and potential pitfalls.
+  
 * [The humble JSON file meets Angular v4](https://medium.com/@sarafecadu/the-humble-json-file-meets-angular-v4-6b8ae861b018)  
 This blog post walks through loading a JSON file using RxJS and Angular v4.  
   
