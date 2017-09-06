@@ -1,6 +1,8 @@
 body {
 	font-family: 'Mukta Mahee', sans-serif;
 	margin: 0px;
+  background-color: #fbfbfc;
+
 
 }
 
@@ -19,7 +21,6 @@ body {
      position: relative;
      overflow: hidden;
      z-index: 1;
-     background-color: #fbfbfc;
  }
 
 @media screen and (min-width: 768px){
@@ -170,7 +171,7 @@ body {
 }
 
 .main-blog-list {
-  height: 500px;
+  height: 100%;
  	padding: 10px;
   overflow: visible;
 }
