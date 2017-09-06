@@ -1,316 +1,166 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Portfolio | Sara Fecadu</title>
-	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto+Condensed" rel="stylesheet">
-	<link rel="icon" type="image/png" href="assets/favicon.png">
-	<style>
-		body{
-			background-color: #dbd8d8;
-			margin: 25px;
-		}
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=.6">
+		<title>Portfolio | Sara Fecadu</title>
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+		<link rel="icon" type="image/png" href="assets/favicon.png">
+	</head>
+	<body>
+		<!-- Side Nav -->
+		<div class="side-nav">
+			<div class="intro-info">
+				<img class="intro-image" src="assets/profile.png" alt="picture of a woman's face">
+				<p class="intro-name">Sara Fecadu</p>
+				<p class="intro-title">Web Developer</p>
+				<p class="intro-location">Seattle, WA</p>
+			</div>
 
-		a:focus {
-			outline: thick dotted cadetblue;
-			margin-bottom: 50px;
+			<div class="side-project-list">
+				<div class="side-project-text">Check out my<div class="font-change">:</div></div>
+			<div class="side-project-annotated" tabindex="0"> Annotated Project List</div>
 
-		}
+			<div class="side-project-early"><a href="https://sarafec.github.io/jsRejects/" target="_blank">Earlier Work</a></div>
+			</div>
 
-		.title {
-			font-family: 'Luckiest Guy', cursive;
-			font-size: 60px;
-			margin-top: 30px;
-			margin-left: 10px;
-			max-height: 100px;
-			max-width: 100px;
-			float: left;
-		}
-
-		#stop-sign {
-			margin-left: 75px;
-			margin-top: 4px;
-			position: relative;
-			z-index: 2;
-		}
-
-		.title-image {
-			overflow: hidden;
-			height: 95px;
-			margin-top: 4px;
-			left: -30px;
-			position: relative;
-			z-index: 1;
-		}
-
-		#subtitle {
-			text-align: right;
-			margin-top: 10px;
-			margin-right: 28px;
-			margin-bottom: 10px;
-			font-size: 26px;
-			font-family: 'Roboto Condensed', sans-serif;
-		}
-
-		header {
-			background-color: cadetblue;
-			top: 0;
-			left: 0;
-			right: 0;
-			position: fixed;
-			border-bottom: black solid 2px;
-		}
-
-		.content-container{
-			font-family: 'Roboto Condensed', sans-serif;
-			margin-top: 180px;
-		}
-
-
-		.projects-title {
-			text-align: left;
-			font-size: 1.7rem;
-			margin-bottom: 0px;
-			margin-top: 20px;
-		}
-
-		.projects-container {
-		    margin-top: 10px;
-		    margin-right: 10%;
-		}
-
-		.box {
-			display: inline-block;
-		    width: 615px;
-		    margin-left: 80px;
-		    margin-right: 30px;
-		    margin-top: 10px;
-		    margin-bottom: 30px;
-		    text-align: left;
-		}
-
-		.box a {
-			color: black;
-		}
-		
-		.project-image {
-			max-height: 400px;
-			border: 2px solid black;
-		}
-
-		.series-list {
-			font-size: 21px;
-		}
-
-		.projects-explainer {
-			text-align: left;
-			margin-top: 10px;
-			padding-bottom: 10px;
-			max-width: 615px;
-			clear: both;
-			font-size: 19px;
-		}
-
-		.divider-container {
-			float: left;
-			clear: both;
-			width: 500px;
-		}
-
-		.blogs-title {
-			font-size: 25px;
-		}
-
-		.blogs-container a {
-			color: black;
-		}
-
-		.blog-post {
-		    margin-left: 20px;
-			margin-top: -5px;
-			font-size: 18px;
-		}
-
-		.entry-title {
-			font-size: 22px;
-		}
-
-		.entry-date {
-			margin-left: 10px;
-			margin-top: -10px;
-		}
-
-		.entry-description {
-			margin-left: 10px;
-			margin-top: -10px;
-		}
-
-		footer {
-			background-color: #242424;
-			position: fixed;
-			width: 100%;
-			clear: both;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			padding: 7px;
-			text-align: center;
-		}
-
-		footer a {
-			color: 	#dbd8d8;
-			margin-right: 10px;
-			font-size: 19px;
-		}
-
-	</style>
-</head>
-<body>
-	<header>
-		<h1 class="title">Quick</h1>
-		<img class="title" id="stop-sign" src="assets/stop-sign.png" alt="a stop sign">
-		<div class="title-image"><img src="assets/quick-stop.png" alt="faces"></div>
-		<h2 id="subtitle">Sara Fecadu's Latest Adventures in JavaScript</h2>
-	</header>
-
-	<div class="content-container">
-		<div class="projects-container">
-			<h3 class="projects-title">Projects</h3>
-			<div class="projects-container">
-
-
-			<div class="box">
-				<a href="https://sarafec.github.io/exploreUI/" target="_blank" tabindex="0"><img class="project-image" src="assets/explore.png" alt="photo of tools"></a>
-				<div class="projects-explainer">
-					<div class="series-list">
-					<a href="https://sarafec.github.io/filterByGenre/" target="_blank">
-						Filter by Genre with React</a> • <a class="dessert-source" href="https://github.com/sarafec/filterByGenre" target="_blank">Source</a><br>
-					<a href="https://sarafec.github.io/filterByYear/" target="_blank" tabindex="0">
-						Filter by Year with Angular v4</a> • <a class="dessert-source" href="https://github.com/sarafec/filterByYear" target="_blank">Source</a><br>
-					<a href="https://sarafec.github.io/eriSnap/" target="_blank" tabindex="0">
-						EriSnap with Angular v4</a> • <a class="dessert-source" href="https://github.com/sarafec/eriSnap" target="_blank">Source</a><br>
-					<a href="https://sarafec.github.io/dogs/" target="_blank" tabindex="0">
-						Dogs with React</a> • <a class="dessert-source" href="https://github.com/sarafec/dogs" target="_blank">Source</a><br><br>
-						</div>
-						
-						Series: ExploreUI <br>
-						In preparation for a larger project, I decided to build out four UI widgets using both Angular v4 and React. They are a bit sporadic in theme, but the final product will pull these four applications together. Stay tuned!<br>
+			<div class="side-contact-container">
+				<div>Find me on:</div>
+				<div class="side-contact-list">
+					<a href="https://github.com/sarafec" target="_blank">
+						<div><img class="side-contact-image" src="assets/github.png" alt="github logo">	Github
+						</div></a>
+					<a href="https://medium.com/@sarafecadu/" target="_blank">
+						<div><img class="side-contact-image" src="assets/medium.png" alt="">
+							Medium
+						</div></a>
+					<a href="https://www.linkedin.com/in/sara-fecadu" target="_blank">
+						<div><img class="side-contact-image" src="assets/linkedin.png" alt="">
+							LinkedIn
+						</div></a>
+					<a href="https://twitter.com/saberbabertwo" target="_blank">
+						<div><img class="side-contact-image" src="assets/twitter.png" alt="">	Twitter
+						</div></a>
 				</div>
 			</div>
-				
-			<div class="box">
-					<a href="https://sarafec.github.io/dessertsMVC/" target="_blank" tabindex="0"><img class="project-image" src="assets/desserts.png" alt="photo of pies"></a>
-					<div class="projects-explainer">
-						<div class="series-list">
-						<a href="https://sarafec.github.io/dessertsMVC-Angular/" target="_blank">
-							DessertMVC with Angular v4</a> • <a class="dessert-source" href="https://github.com/sarafec/dessertsMVC-Angular" target="_blank">Source</a><br>
-						<a href="https://sarafec.github.io/dessertsMVC-React/" target="_blank" tabindex="0">
-							DessertMVC with React</a> • <a class="dessert-source" href="https://github.com/sarafec/dessertsMVC-React" target="_blank">Source</a><br>
-						<a href="https://sarafec.github.io/dessertsMVC-JS/" target="_blank" tabindex="0">
-							DessertMVC with JavaScript</a> • <a class="dessert-source" href="https://github.com/sarafec/dessertsMVC-JS" target="_blank">Source</a><br><br>
-							</div>
-							
-							Series: DessertsMVC <br>
-							Inspired by <a href="http://todomvc.com/" target="_blank">TodoMVC</a>, DessertsMVC is a recipe site using different JavaScript frameworks (and plain old JavaScript) to compare their approaches to resource loading, routing, and templates. <br>
-					</div>
-				</div>
-
-				<div class="box">
-					<a href="https://sarafec.github.io/static/" target="_blank" tabindex="0"><img class="project-image" src="assets/static.png" alt="photo of chart"></a>
-					<div class="projects-explainer">
-						Project: Static<br>
-						Technologies used: D3.js and JavaScript <br>
-					This project is a collection of static and reusable charts focused on data from Africa.
-					</div>
-				</div>
-
-				<div class="box">
-					<a href="https://bl.ocks.org/sarafec/287bc9628a723d70285178ff9b2a718a" target="_blank" tabindex="0"><img class="project-image" src="assets/chart.png" alt="photo of chart"></a>
-					<div class="projects-explainer">
-						Project: Teen Births by State Chart<br>
-						Technologies used: D3.js and JavaScript <br>
-					This project visualizes 23 years of teen birth data and filters by census region.
-					</div>
-				</div>
-				
-				<div class="box">
-					<a href="https://sarafec.github.io/theWorstClock/" target="_blank" tabindex="0">
-						<img src="assets/clock.png" class="project-image" alt="photo of website header"></a>
-					<div class="projects-explainer">
-						Project: The Worst Clock.<br>
-						Techonologies Used: HTML, CSS, and JavaScript<br>
-						This clock app contains an actual clock and a somewhat imprecise word clock.
-					</div>
-				</div>
-				
-			</div> 
 		</div>
 
-		<div class="divider-container">
-			<div class="blogs-container">
-				<h3 class="blogs-title">Recent Blog Posts</h3>
-				<div class="blog-post">
-					<div class="blog-post">
-						<p class="entry-title">
-							<a href="https://medium.com/@sarafecadu/unpacking-the-meta-viewport-tag-bd6b0d0d2471" target="_blank" tabindex="0">
-								Unpacking the meta viewport tag
-							</a>
-						</p>
-						<p class="entry-date">
-							Published on August 17, 2017
-						</p>
-						<p class="entry-description">
-							This blog post discusses the meta viewport tag's properties and potential pitfalls.
-						</p>
-					</div>
-					<div class="blog-post">
-						<p class="entry-title">
-							<a href="https://medium.com/@sarafecadu/the-humble-json-file-meets-angular-v4-6b8ae861b018" target="_blank" tabindex="0">
-								The humble JSON file meets Angular v4
-							</a>
-						</p>
-						<p class="entry-date">
-							Published on July 28, 2017
-						</p>
-						<p class="entry-description">
-							This blog post walks through loading a JSON file using RxJS and Angular v4.
-						</p>
-					</div>
-					<div class="blog-post">
-						<p class="entry-title">
-							<a href="https://medium.com/@sarafecadu/a-world-without-loops-f8f65a30c82d" target="_blank" tabindex="0">
-								A world without loops
-							</a>
-						</p>
-						<p class="entry-date">
-							Published on July 6, 2017
-						</p>
-						<p class="entry-description">
-							This blog post discusses potential alternatives to for statements.
-						</p>
-					</div>
-					<div class="blog-post">
-						<p class="entry-title">
-							<a href="https://medium.com/@sarafecadu/javascript-numbers-and-the-mystery-0s-b087c5cf21e2" target="_blank" tabindex="0">
-								JavaScript and the Mystery 0s
-							</a>
-						</p>
-						<p class="entry-date">
-							Published on June 2, 2017
-						</p>
-						<p class="entry-description">
-							This blog post discusses how JavaScript internally represents numbers.
-						</p>
-					</div>
+		<!--Main Content-->
+		<div class="main-content">
+			
+			<div class="chevron chevron-left" tabindex="0"><img src="assets/chevron-left.png" alt=""></div>
+			<div class="chevron chevron-right" tabindex="0"><img src="assets/chevron-right.png" alt=""></div>
+
+			<div class="main-project-viewer">
+				<div class="main-project-icons">
+				<!--		<a href="" target="_blank"><img class="main-project-image" src="assets/photo.jpg" alt=""></a> -->
+						<a href="https://sarafec.github.io/union/" target="_blank"><img class="main-project-image" src="assets/union.png" alt=""></a>
+						<a href="https://sarafec.github.io/static/" target="_blank"><img class="main-project-image" src="assets/static.png" alt=""></a>
+						<a href="https://sarafec.github.io/exploreUI/" target="_blank"><img class="main-project-image" src="assets/explore.png" alt=""></a>
+						<a href="https://sarafec.github.io/dessertsMVC/" target="_blank"><img class="main-project-image" src="assets/dessert.png" alt=""></a>
+				</div>
+			
 			</div>
-	</div>
-	<br>
-	<div class="divider-container"><br>
-	<footer> <a href="https://github.com/sarafec" target="_blank" tabindex="0">Github</a> 
-		<a href="https://medium.com/@sarafecadu" target="_blank" tabindex="0">Medium</a> 
-		<a href="https://bl.ocks.org/sarafec" target="_blank" tabindex="0">Blocks</a>
-	</footer>
-	</div>
-</body>
+
+			<div class="main-blog-list">
+				<div class="main-blog-intro">Recent Blog Posts</div>
+					<div class="blog-entry">
+						<a href="https://medium.com/@sarafecadu/unpacking-the-meta-viewport-tag-bd6b0d0d2471" target="_blank"><div class="blog-entry-title">Unpacking the meta viewport tag</div></a>
+						<div class="blog-entry-published">Published on August 17, 2017</div>
+					</div>
+					<div class="blog-entry">
+						<a href="https://medium.com/@sarafecadu/the-humble-json-file-meets-angular-v4-6b8ae861b018" target="_blank"><div class="blog-entry-title">The humble JSON file meets Angular v4</div></a>
+						<div class="blog-entry-published">Published on July 28, 2017</div>
+					</div>
+					<div class="blog-entry">
+						<a href="https://medium.com/@sarafecadu/a-world-without-loops-f8f65a30c82d"><div class="blog-entry-title">A world without loops</div></a>
+						<div class="blog-entry-published">Published on July 6, 2017</div>
+					</div>
+					<div class="blog-entry">
+						<a href="https://medium.com/@sarafecadu/javascript-numbers-and-the-mystery-0s-b087c5cf21e2" target="_blank"><div class="blog-entry-title">JavaScript Numbers and Mystery 0s</div></a>
+						<div class="blog-entry-published">Published on June 2, 2017</div>
+					</div>
+
+			</div>
+		</div>
+	
+		<!-- Modal -->
+		<div class="modal-overlay closed" id="modal-overlay"></div>
+
+		<div class="modal closed" id="modal">
+		  <div class="modal-content">
+		  	<div class="modal-title">
+		    <h1 class="modal-title-text" >Annotated Project List</h1>
+		    <button class="close-button" tabindex="0">Close</button>
+		    </div>
+		    	<div class="annotated-project-list">
+		    <!--	<div class="annotated-project-entry">
+		    			<a href="" target="_blank" tabindex="0" id="first-annotated-item"><img class="annotated-project-image" src="assets/photo.jpg" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title">Tigrinya Talk</div>
+			    			<div class="annotated-project-tech">Includes Angular v4 and RxJS</div>
+			    			<div class="annotated-project-techical">Technical: Allowed me to explore Firebase and build a real user-facing product.</div>
+			    			<div class="annotated-project-personal">Personal: I wanted to create a no-frills platform for people to learn Tigrinya.</div>
+		    			</div>
+		    		</div> -->
+		    		<div class="annotated-project-entry">
+		    			<a href="https://sarafec.github.io/union/" target="_blank" tabindex="0"><img class="annotated-project-image" src="assets/union.png" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title"> Union</div>
+			    			<div class="annotated-project-tech">Includes React and react-router</div>
+			    			<div class="annotated-project-techical">Technical: This project gave me the opportunity to build a clean UI with smooth search and filter functionality.</div>
+			    			<div class="annotated-project-personal">Personal: I planned this application while patiently waiting for Project Runway to start.</div>
+		    			</div>
+		    		</div>
+		    		<div class="annotated-project-entry">
+		    			<a href="https://sarafec.github.io/static/" target="_blank" tabindex="0"><img class="annotated-project-image" src="assets/static.png" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title">Static</div>
+			    			<div class="annotated-project-tech">Includes D3.js and JavaScript</div>
+			    			<div class="annotated-project-techical">Technical: I was able to dive deeper into D3.js and created a series of reusable charts with data related to African nations.</div>
+			    			<div class="annotated-project-personal">Personal: Africa is often discussed as a monolith, this series of data visualizations represent a tiny slice of its complexity and diversity.</div>
+		    			</div>
+		    		</div>
+		    		<div class="annotated-project-entry">
+		    			<a href="https://sarafec.github.io/exploreUI/" target="_blank" tabindex="0"><img class="annotated-project-image" src="assets/explore.png" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title">ExploreUI</div>
+			    			<div class="annotated-project-tech">Includes React and Angular v4</div>
+			    			<div class="annotated-project-techical">Technical: This project gave me the opportunity to dive deeper into React and Angular v4.</div>
+			    			<div class="annotated-project-personal">Personal: I wanted to build apps focused on filter functionality to prep for a future app (which became Union).</div>
+			    		</div>
+		    		</div>
+		    		<div class="annotated-project-entry">
+		    			<a href="https://sarafec.github.io/dessertsMVC/" target="_blank" tabindex="0"><img class="annotated-project-image" src="assets/dessert.png" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title">DessertsMVC</div>
+			    			<div class="annotated-project-tech">Includes React, Angular v4, and JavaScript</div>
+			    			<div class="annotated-project-techical">Technical: This series of projects was my introduction to React, Angular v4, and the HTML5 History API. </div>
+			    			<div class="annotated-project-personal">Personal: I  really like baked goods. I was also interested in the nuts and bolts of client side routing. </div>
+			    		</div>
+		    		</div>
+		    		<div class="annotated-project-entry">
+		    			<a href="https://sarafec.github.io/portfolio/" target="_blank" tabindex="0"><img class="annotated-project-image" src="assets/port.png" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title">Portfolio</div>
+			    			<div class="annotated-project-tech">Includes HTML, CSS, and JavaScript</div>
+			    			<div class="annotated-project-techical">Technical: I wanted create an impresive site with mostly HTML and CSS. </div>
+			    			<div class="annotated-project-personal">Personal: My first portfolio was fun. This portfolio better represents my skills as a developer. </div>
+			    		</div>
+		    		</div>
+		    		<div class="annotated-project-entry">
+		    			<a href="https://sarafec.github.io/jsRejects/" target="_blank" tabindex="0"><img class="annotated-project-image" src="assets/jsrejects.png" alt=""></a>
+		    			<div class="annotated-project-contents">
+			    			<div class="annotated-project-title">JS Rejects</div>
+			    			<div class="annotated-project-tech">Includes D3.js, HTML, CSS, and JavaScript</div>
+			    			<div class="annotated-project-techical">Technical: I repurposed my original portfolio to show my growth as a web developer. </div>
+			    			<div class="annotated-project-personal">Personal: I like the Jay and Silent Bob theme. I also really like all the projects I've done, no matter how trivial. </div>
+			    		</div>
+		    		</div>
+		    	<button class="close-button bottom-btn" tabindex="0">Back to Main Page</button>
+		    	</div>
+		  </div>
+		</div>
+	</body>
+			<script src="script.js"></script>
 </html>

@@ -1,0 +1,325 @@
+body {
+	font-family: 'Mukta Mahee', sans-serif;
+	margin: 0px;
+
+}
+
+ .side-nav {
+     position: fixed;
+     background-color: #edeef0;
+     width: 200px;
+     height: 100%;
+     border-right: .5px solid lightgrey;
+ }
+
+ .main-content {
+     margin-left: 200px;
+     height: 620px;
+     width: auto;
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+     background-color: #fbfbfc;
+ }
+
+@media screen and (min-width: 768px){
+
+}
+
+.intro-info {
+ 	margin-top: 10px;
+}
+
+ .intro-image {
+ 	max-width: 200px;
+ 	max-height: 200px;
+ 	border-radius: 90px;
+ 	margin-right: 40px;
+ 	margin-left: 25px;
+ 	border: 2px solid #edeef0;
+ }
+
+ .intro-name {
+ 	font-size: 25px;
+ 	margin-top: -5px;
+ 	margin-right: 35px;
+ 	margin-left: 35px;
+ }
+
+.intro-title {
+  font-size: 17px;
+  margin-top: -32px;
+  margin-right: 44px;
+  margin-left: 44px;
+ }
+
+.intro-location {
+  font-size: 16px;
+  margin-top: -25px;
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+.side-project-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.side-project-text {
+  margin-left: 10px;
+  margin-bottom: -5px;
+}
+
+ .side-project-annotated {
+ 	margin-top: 0px;
+ 	margin-bottom: 10px;
+ 	margin-left: 25px;
+ 	margin-right: 25px;
+ 	cursor: pointer;
+ }
+
+.side-project-early {
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+ }
+
+.side-project-image {
+  height: 15px;
+  width: 10px;
+  margin-top: 2px;
+ }
+
+.side-contact-container {
+	margin-left: 10px;
+}
+
+.side-contact-list {
+ 	margin-left: 20px;
+ 	display: inline-block;
+ }
+
+ .side-contact-list a {
+	text-decoration: none;
+	color: black;
+ }
+
+
+.side-contact-image {
+ 	height: 20px;
+ 	width: 20px;
+ 	margin-top: 2px;
+ }
+
+.chevron {
+  position: absolute;
+  padding-top: 4px;
+  display: inline-block;
+  z-index: 100;
+}
+
+.chevron:focus {
+  background-color: #edeef0;
+}
+
+.chevron:hover {
+  background-color: #edeef0;
+}
+
+.chevron img {
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+
+.chevron-left {
+  margin-top: 130px;
+  margin-left: 2.5%; 
+}
+
+.chevron-right {
+  margin-top: 130px;
+  margin-left: 94.5%;
+}
+
+
+ .main-project-viewer{
+ 	height: 52%;
+  /* this value controls length of photo viewer*/
+  /* it is the number of icon elements + 1 multiplied by 370 */
+  width: 2600px;
+  overflow: hidden;
+  overflow-x: hidden;
+  transform: translateX(0px);
+ }
+
+.main-project-image {
+  display: inline-block;
+  margin: 10px;
+  height: 300px;
+  width: 350px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
+
+.main-project-radio {
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+}
+
+.main-blog-list {
+  height: 500px;
+ 	padding: 10px;
+  overflow: visible;
+}
+
+ .main-blog-intro {
+	font-size: 22px;
+ }
+
+.blog-entry {
+	margin-bottom: 10px;
+}
+
+.blog-entry-title {
+ 	margin-left: 10px;
+ 	font-size: 19px;
+ }
+
+.blog-entry a {
+  display: inline-block;
+	text-decoration: .2px solid black;
+	color: black;
+	cursor: pointer;
+}
+
+.blog-entry-published {
+	margin-top: -5px;
+  	margin-left: 10px;
+  	font-size: 16px;
+}
+
+.modal {
+  	display: block;
+  	margin: 30px;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	z-index: 100;
+  	left: 0;
+  	top: 0; 
+}
+
+.closed {
+  display: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: #fbfbfc;
+
+}
+
+.modal-title {
+	top: 0;
+}
+
+.modal-title-text {
+	display: inline-block;
+  width: 45%;
+
+}
+
+.modal-content {
+	display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.close-button {
+	display: inline-block;
+	width: 90px;
+	border: 1px solid lightgrey;
+  border-radius: 5%;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+  margin: 0px;
+  margin-left: 40%;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.05);
+
+}
+
+.bottom-btn {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.close-button:focus {
+  background-color: #a7abb2;
+  color: white;
+}
+
+.close-button:hover {
+  background-color: #a7abb2;
+  color: white;
+}
+
+.annotated-project-list {
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+.annotated-project-entry {
+  margin-bottom: 20px;
+}
+
+.annotated-project-image {
+  display: inline-block;
+  margin-bottom: -10px;
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+
+}
+
+.annotated-project-contents {
+  display: inline-block;
+  width: 500px;
+  margin-left: 5px;
+}
+
+.annotated-project-title {
+  font-size: 18px;
+}
+
+.annotated-project-techical {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.annotated-project-tech {
+  margin-top: -5px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #4d5153;
+}
+
+.font-change {
+  font-family: serif;
+  display: inline-block;
+}
