@@ -3,7 +3,7 @@ This repository contains links to recent projects hosted on Github and blog post
   
   
 ## Projects  
-* [Union](https://github.com/sarafec/union)
+* [Union](https://github.com/sarafec/union)  
 This project is a catalog of modern fashion collaborations.  
 A liver version of this project can be found [here](https://sarafec.github.io/union/).
   
