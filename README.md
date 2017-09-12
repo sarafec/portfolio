@@ -11,13 +11,13 @@ A liver version of this project can be found [here](https://sarafec.github.io/un
 This project is a collection of static and reusable charts focused on data from Africa.  
 A live version of this project can be found [here](https://sarafec.github.io/static/).  
   
-* [DessertsMVC](https://github.com/sarafec/dessertsMVC)  
-This project contains three recipe sites written in Angular, React and plain JavaScript, respectively. The focus of this project was find out how each technology approaches resource loading, templates and routing.  
-A live version of the directory can be found here [here](https://sarafec.github.io/dessertsMVC/).  
-  
 * [ExploreUI](https://github.com/sarafec/exploreUI)  
 This project contains four user interface widgets written in either Angular v4 or React. They include a search application, two filter applications and a photo viewer. 
-A live version of this directory can be found [here](https://sarafec.github.io/exploreUI/).  
+A live version of this directory can be found [here](https://sarafec.github.io/exploreUI/). 
+  
+* [DessertsMVC](https://github.com/sarafec/dessertsMVC)  
+This project contains three recipe sites written in Angular, React and plain JavaScript, respectively. The focus of this project was find out how each technology approaches resource loading, templates and routing.  
+A live version of the directory can be found here [here](https://sarafec.github.io/dessertsMVC/).   
   
   
   
