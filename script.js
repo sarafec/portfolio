@@ -20,16 +20,16 @@
 
 	openList.addEventListener("click", function(evt) {
 		toggleModal();
-		window.setTimeout(function () { 
-			document.getElementById('first-annotated-item').focus(); 
+		window.setTimeout(function () {
+			document.getElementById('first-annotated-item').focus();
 		}, 0);
 	});
 
 	openList.addEventListener("keydown", function(evt){
 		if(evt.which === 13){
 			toggleModal();
-			window.setTimeout(function () { 
-			    document.getElementById('first-annotated-item').focus(); 
+			window.setTimeout(function () {
+				document.getElementById('first-annotated-item').focus();
 			}, 0);
 		}
 	});
@@ -57,32 +57,32 @@
 	//swipe functionality
 	let touch1 = {x: 0, y: 0, time: 0 };
 	function handleTouch(evt){
-		    var touch = evt.touches[0] || evt.changedTouches[0];
-		    if (evt.type === 'touchstart'){
-		      touch1.x = touch.pageX;
-		      touch1.y = touch.pageY;
-		      touch1.time = evt.timeStamp;
-		    } else if (evt.type === 'touchend'){
-		      var dx = touch.pageX - touch1.x;
-		      var dy = touch.pageY - touch1.y;
-		      var dt = evt.timeStamp - touch1.time;
-
-		      if (dt < 500){
-		        if (Math.abs(dx) > 60){
-		          if (dx > 0){
-						movePhotosLeft();
-		          } else {
-						movePhotosRight();
-		          }
-		        }
-		      }
-		    } 
-		  }
+		var touch = evt.touches[0] || evt.changedTouches[0];
+		if (evt.type === 'touchstart'){
+			touch1.x = touch.pageX;
+			touch1.y = touch.pageY;
+			touch1.time = evt.timeStamp;
+		} else if (evt.type === 'touchend'){
+			var dx = touch.pageX - touch1.x;
+			var dy = touch.pageY - touch1.y;
+			var dt = evt.timeStamp - touch1.time;
+		
+		if (dt < 500){
+			if (Math.abs(dx) > 60){
+				if (dx > 0){
+					movePhotosLeft();
+				} else {
+					movePhotosRight();
+				}
+			}
+		}
+		}
+	}
 
 	//toggle open or close annotated project list modal
 	function toggleModal() {
 		modal.classList.toggle("closed");
-	 	modalOverlay.classList.toggle("closed");
+		modalOverlay.classList.toggle("closed");
 	}
 
 
@@ -101,7 +101,6 @@
 		}
 	}
 })();
-//add media queries for mobile layout
-//add mdedia queries for modal layout
+
 //fix modal window focus issue
 //add swipe functionality for mobile
