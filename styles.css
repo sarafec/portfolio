@@ -1,6 +1,6 @@
 body {
 	font-family: 'Mukta Mahee', sans-serif;
-	margin: 0px;
+	margin: 0;
   background-color: #fbfbfc;
 
 
@@ -16,7 +16,7 @@ body {
 
  .main-content {
      margin-left: 200px;
-     height: 620px;
+     height: auto;
      width: auto;
      position: relative;
      overflow: hidden;
