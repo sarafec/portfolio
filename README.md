@@ -22,6 +22,9 @@ A live version of the directory can be found here [here](https://sarafec.github.
   
   
 ## Blogs  
+* [64-bit floating point: A JavaScript Story](https://medium.com/@sarafecadu/64-bit-floating-point-a-javascript-story-fa6aad266665)  
+This blog post dives futher into the internal representation of numbers in JavaScript.
+  
 * [Unpacking the meta viewport tag](https://medium.com/@sarafecadu/unpacking-the-meta-viewport-tag-bd6b0d0d2471)  
 This blog post discusses the meta viewport tag's properties and potential pitfalls.
   
