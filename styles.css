@@ -289,6 +289,10 @@ body {
   margin-bottom: 20px;
 }
 
+.annotated-project-entry a:focus {
+  outline-color: lightgrey;
+}
+
 .annotated-project-image {
   display: inline-block;
   margin-bottom: -10px;
@@ -319,6 +323,11 @@ body {
   margin-left: 5px;
   font-size: 14px;
   color: #4d5153;
+}
+
+.close-button:focus {
+  outline-color: lightgrey;
+
 }
 
 .font-change {
