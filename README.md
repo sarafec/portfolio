@@ -22,6 +22,9 @@ A live version of the directory can be found here [here](https://sarafec.github.
   
   
 ## Blogs  
+* [Regular expressions for regular folks](https://medium.com/@sarafecadu/regular-expressions-for-regular-folks-4cfa3724c600)  
+This blog post walks through simple regular expressions patterns and an overview for how JavaScript implements regular expressions.
+  
 * [64-bit floating point: A JavaScript Story](https://medium.com/@sarafecadu/64-bit-floating-point-a-javascript-story-fa6aad266665)  
 This blog post dives futher into the internal representation of numbers in JavaScript.
   
