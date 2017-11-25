@@ -6,6 +6,8 @@ body {
 
 }
 
+/** TOP LEVEL ELEMENTS **/
+
  .side-nav {
      position: fixed;
      background-color: #edeef0;
@@ -23,9 +25,7 @@ body {
      z-index: 1;
  }
 
-@media screen and (min-width: 768px){
-
-}
+ /** HEADER **/
 
 .intro-info {
  	margin-top: 10px;
@@ -60,6 +60,8 @@ body {
   margin-right: 55px;
   margin-left: 55px;
 }
+
+/** SIDE MENU **/
 
 .side-project-list a {
   color: black;
@@ -114,6 +116,8 @@ body {
  	margin-top: 2px;
  }
 
+ /** PROJECT SLIDER **/
+
 .chevron {
   position: absolute;
   padding-top: 4px;
@@ -164,13 +168,8 @@ body {
   width: 350px;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
 }
-
-.main-project-radio {
-  margin-right: 10px;
-  margin-top: 10px;
-  float: right;
-}
-
+ 
+/** BLOG SECTION **/
 .main-blog-list {
   height: 100%;
  	padding: 10px;
@@ -203,6 +202,7 @@ body {
   	font-size: 16px;
 }
 
+/** MODAL WINDOW **/
 .modal {
   	display: block;
   	margin: 30px;
@@ -299,7 +299,7 @@ body {
   height: 200px;
   width: 250px;
   margin-top: 10px;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
 
 }
 
