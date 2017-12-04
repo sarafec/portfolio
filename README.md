@@ -3,9 +3,17 @@ This repository contains links to recent projects hosted on Github and blog post
   
   
 ## Projects  
+* [Teen Births](https://github.com/sarafec/teen-births)  
+This project contains a lollipop chart representing teen birth rates in the United States, 1990-2015.  
+A live version of this project can be found [here](https://sarafec.github.io/teen-births/).
+  
+* [Obesity Map](https://github.com/sarafec/obesity-map)  
+This project contains a map of global obesity, 1990-2013.  
+A live version of this project can be found [here](https://sarafec.github.io/obesity-map/).
+  
 * [Union](https://github.com/sarafec/union)  
 This project is a catalog of modern fashion collaborations.  
-A liver version of this project can be found [here](https://sarafec.github.io/union/).
+A live version of this project can be found [here](https://sarafec.github.io/union/).
   
 * [Static](https://github.com/sarafec/static)  
 This project is a collection of static and reusable charts focused on data from Africa.  
