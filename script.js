@@ -103,4 +103,6 @@
 	}
 })();
 
-//fix modal window focus issue
+//todos
+// in project viewer, can we set off css animation on click?
+// fix project viewer - look at how other carousels are built
