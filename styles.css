@@ -32,11 +32,11 @@ body {
 }
 
  .intro-image {
- 	max-width: 200px;
- 	max-height: 200px;
+ 	max-width: 175px;
+ 	max-height: 175px;
  	border-radius: 90px;
  	margin-right: 40px;
- 	margin-left: 25px;
+ 	margin-left: 10px;
  	border: 2px solid #edeef0;
  }
 
