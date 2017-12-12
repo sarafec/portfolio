@@ -10,7 +10,11 @@ A live version of this project can be found [here](https://sarafec.github.io/tee
 * [Obesity Map](https://github.com/sarafec/obesity-map)  
 This project contains a map of global obesity, 1990-2013.  
 A live version of this project can be found [here](https://sarafec.github.io/obesity-map/).
-  
+
+* [CongressPop](https://github.com/sarafec/congressPop)  
+This data visualization shows the number of men and women who work in the US Congress.  
+A live version of this project can be found [here](https://sarafec.github.io/congressPop/).  
+
 * [Union](https://github.com/sarafec/union)  
 This project is a catalog of modern fashion collaborations.  
 A live version of this project can be found [here](https://sarafec.github.io/union/).
@@ -18,18 +22,13 @@ A live version of this project can be found [here](https://sarafec.github.io/uni
 * [Static](https://github.com/sarafec/static)  
 This project is a collection of static and reusable charts focused on data from Africa.  
 A live version of this project can be found [here](https://sarafec.github.io/static/).  
-  
-* [ExploreUI](https://github.com/sarafec/exploreUI)  
-This project contains four user interface widgets written in either Angular v4 or React. They include a search application, two filter applications and a photo viewer. 
-A live version of this directory can be found [here](https://sarafec.github.io/exploreUI/). 
-  
-* [DessertsMVC](https://github.com/sarafec/dessertsMVC)  
-This project contains three recipe sites written in Angular, React and plain JavaScript, respectively. The focus of this project was find out how each technology approaches resource loading, templates and routing.  
-A live version of the directory can be found here [here](https://sarafec.github.io/dessertsMVC/).   
-  
+     
   
   
 ## Blogs  
+* [Three Lessons, One Dataset](https://medium.com/@sarafecadu/three-lessons-one-dataset-74ea4779be81)  
+This blog post walks through three charts I bulit in the past year using data related to teen births.
+  
 * [Regular expressions for regular folks](https://medium.com/@sarafecadu/regular-expressions-for-regular-folks-4cfa3724c600)  
 This blog post walks through simple regular expressions patterns and an overview for how JavaScript implements regular expressions.
   
