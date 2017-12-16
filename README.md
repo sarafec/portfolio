@@ -26,6 +26,9 @@ A live version of this project can be found [here](https://sarafec.github.io/sta
   
   
 ## Blogs  
+* [JavaScript arrays and their peculiar properties](https://medium.com/@sarafecadu/javascript-arrays-and-their-peculiar-properties-98cdc57e28e5)  
+This blog explores some unlikely behavior within JavaScript arrays.  
+
 * [Three Lessons, One Dataset](https://medium.com/@sarafecadu/three-lessons-one-dataset-74ea4779be81)  
 This blog post walks through three charts I bulit in the past year using data related to teen births.
   
