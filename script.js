@@ -1,11 +1,5 @@
 
 (function() {
-	// variables for modal window
-	let modal = document.querySelector(".modal");
-	let modalOverlay = document.querySelector(".modal-overlay");
-	let closeButton = document.querySelector(".close-button");
-	let bottomButton = document.querySelector(".bottom-btn");
-	let openList = document.querySelector(".side-project-annotated");
 	
 	// variables for project viewer
 	let chevronRight = document.querySelector(".chevron-right");
@@ -14,25 +8,6 @@
 	let totalCount = document.querySelector(".main-project-icons").children.length;
 	let currentCount = 1;
 
-	// modal window events
-	closeButton.addEventListener("click", toggleModal);
-	bottomButton.addEventListener("click", toggleModal);
-
-	openList.addEventListener("click", function(evt) {
-		toggleModal();
-		window.setTimeout(function () {
-			document.getElementById('first-annotated-item').focus();
-		}, 0);
-	});
-
-	openList.addEventListener("keydown", function(evt){
-		if(evt.which === 13){
-			toggleModal();
-			window.setTimeout(function () {
-				document.getElementById('first-annotated-item').focus();
-			}, 0);
-		}
-	});
 
 	// project viewer events
 	chevronRight.addEventListener("click", movePhotosRight);
@@ -78,13 +53,6 @@
 		}
 		}
 	}
-
-	// toggle modal window
-	function toggleModal() {
-		modal.classList.toggle("closed");
-		modalOverlay.classList.toggle("closed");
-	}
-
 
 	// project viewer - move left
 	function movePhotosLeft() {
