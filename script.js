@@ -72,5 +72,8 @@
 })();
 
 //todos
-// in project viewer, can we set off css animation on click?
-// fix project viewer - look at how other carousels are built
+// 1 - create photo viewer 
+// 	a. how does slick carousel work?
+// 	b. how to netflix and xfinity icon carousels work?
+// 	c. how to create batches of photos that translate to types of projects 
+// 	   while maintaining a continuous photo stream 
