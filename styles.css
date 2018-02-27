@@ -116,59 +116,10 @@ body {
  	margin-top: 2px;
  }
 
- /** PROJECT SLIDER **/
-
-.chevron {
-  position: absolute;
-  padding-top: 4px;
-  display: inline-block;
-  z-index: 100;
-}
-
-.chevron:focus {
-  background-color: lightgrey;
-  outline-color: lightgrey;
-}
-
-.chevron:hover {
-  background-color: lightgrey;
-}
-
-.chevron img {
-    height: 30px;
-    width: 30px;
-    overflow: hidden;
-}
-
-.chevron-left {
-  margin-top: 130px;
-  margin-left: 2.5%; 
-}
-
-.chevron-right {
-  margin-top: 130px;
-  margin-left: 94.5%;
-}
-
-
- .main-project-viewer{
- 	height: 52%;
-  /* this value controls length of photo viewer*/
-  /* it is the number of icon elements + 1 multiplied by 370 */
-  width: 2600px;
-  overflow: hidden;
-  overflow-x: hidden;
-  transform: translateX(0px);
+ .main-project-viewer {
+  margin-left: 1px;
  }
 
-.main-project-image {
-  display: inline-block;
-  margin: 10px;
-  height: 300px;
-  width: 350px;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
-}
- 
 /** BLOG SECTION **/
 .main-blog-list {
   height: 100%;

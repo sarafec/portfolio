@@ -6,6 +6,11 @@
 		<link rel="stylesheet" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
 		<link rel="icon" type="image/png" href="assets/favicon.png">
+		<link rel="stylesheet" href="assets/owl-carousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/owl-carousel/owl.theme.default.min.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="assets/owl-carousel/owl.carousel.min.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<!-- Side Nav -->
@@ -47,21 +52,15 @@
 		<!--Main Content-->
 	<div class="main-content">
 			
-			<div class="chevron chevron-left" tabindex="0"><img src="assets/chevron-left.png" alt=""></div>
-			<div class="chevron chevron-right" tabindex="0"><img src="assets/chevron-right.png" alt=""></div>
-
-			<div class="main-project-viewer">
-				<div class="main-project-icons">
-				<!--		<a href="" target="_blank"><img class="main-project-image" src="assets/photo.jpg" alt=""></a> -->
-						<a href="https://sarafec.github.io/teen-births/" target="_blank"><img class="main-project-image" src="assets/births.png" alt=""></a>
-						<a href="https://sarafec.github.io/obesity-map/" target="_blank"><img class="main-project-image" src="assets/obesity.png" alt=""></a>
-						<a href="https://sarafec.github.io/congressPop/" target="_blank"><img class="main-project-image" src="assets/congress.png" alt=""></a>
-						<a href="https://sarafec.github.io/union/" target="_blank"><img class="main-project-image" src="assets/union.png" alt=""></a>
-						<a href="https://sarafec.github.io/static/" target="_blank"><img class="main-project-image" src="assets/static1.png" alt=""></a>
-				</div>
-			
+			<div class="main-project-viewer owl-carousel owl-theme">
+			<!--		<a href="" target="_blank"><img class="main-project-image" src="assets/photo.jpg" alt=""></a> -->
+					<a href="https://sarafec.github.io/obesity-map/" class="item" target="_blank"><img class="main-project-image" src="assets/projects/obesity.png" alt=""></a>
+					<a href="https://sarafec.github.io/union/" target="_blank"><img class="main-project-image" src="assets/projects/union.png" alt=""></a>
+					<a href="https://sarafec.github.io/static/" target="_blank"><img class="main-project-image" src="assets/projects/static.png" alt=""></a>
+					<a href="https://sarafec.github.io/congressPop/" target="_blank"><img class="main-project-image" src="assets/projects/congress.png" alt=""></a>
+					<a href="https://sarafec.github.io/teen-births/" class="item" target="_blank"><img class="main-project-image" src="assets/projects/teen-births.png" alt=""></a>
 			</div>
-
+			
 			<div class="main-blog-list">
 				<div class="main-blog-intro">Recent Blog Posts</div>
 					<div class="blog-entry">
@@ -102,5 +101,4 @@
 	
 	</div>
 	</body>
-			<script src="script.js"></script>
 </html>
