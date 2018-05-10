@@ -26,6 +26,9 @@ A live version of this project can be found [here](https://sarafec.github.io/sta
   
   
 ## Blogs  
+* [Prefilling JavaScript arrays for fun and profit](https://medium.com/@sarafecadu/prefilling-javascript-arrays-for-fun-and-profit-4abc3713a323)  
+This blog discusses how to quickly build arrays and matrices of any size using Javascript.  
+
 * [JavaScript arrays and their peculiar properties](https://medium.com/@sarafecadu/javascript-arrays-and-their-peculiar-properties-98cdc57e28e5)  
 This blog explores some unlikely behavior within JavaScript arrays.  
 
